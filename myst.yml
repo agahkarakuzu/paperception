@@ -1,0 +1,48 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: "The Future of Scientific Literature: Papers Talking to Each Other"
+  subtitle: A NeuroLibre Case Study
+  thebe:
+    binder:
+      url: https://binder-preview.conp.cloud
+      repo: agahkarakuzu/alienx
+      ref: HEAD
+  authors:
+    - name: Agah Karakuzu
+      orcid: 0000-0001-7283-271X
+      affiliations:
+        - NeuroPoly, Polytechnique Montreal, Quebec, Canada
+        - Montreal Heart Institute, Montreal, Quebec, Canada
+  keywords:
+    - reproducible publishing
+    - mystmd
+    - next-gen preprints
+  github: https://github.com/agahkarakuzu/alienx
+  banner: static/banner.jpg
+  venue: Neurolibre
+  subject: Living Preprint
+  numbering:
+    headings: true
+  doi: 10.55458/neurolibre.alienx
+  open_access: true
+  license: CC-BY-4.0
+  abbreviations:
+    MyST: Markedly Structured Markdown
+    AI: Alienarity Index
+  bibliography:
+    - paper.bib
+  resources:
+    - content/alienx.ipynb
+  references:
+    mriscope: https://book.neurolibre.org
+    spec: https://mystmd.org/spec
+site:
+  template: article-theme
+
+
+neurolibre:
+  rees:
+    runtime:
+      - name: agahkarakuzu/alienx
+        ref: HEAD
